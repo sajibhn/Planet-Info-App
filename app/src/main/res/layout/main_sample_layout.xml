@@ -55,6 +55,7 @@
             </LinearLayout>
 
             <TextView
+                android:id="@+id/galaxy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-7dp"
@@ -81,6 +82,7 @@
                     android:src="@drawable/ic_distance" />
 
                 <TextView
+                    android:id="@+id/distance"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
@@ -96,6 +98,7 @@
                     android:src="@drawable/ic_gravity" />
 
                 <TextView
+                    android:id="@+id/gravity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
