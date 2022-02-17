@@ -1,7 +1,9 @@
 package com.sajibthedev.planetinfoapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 
@@ -15,6 +17,12 @@ class PlanetDetail : AppCompatActivity() {
         obj = intent.getParcelableExtra("planet")!!
         plantImg = intent.getIntExtra("planetImage", -1)
         setData(obj, plantImg!!)
+
+        var buttonInfo:TextView = findViewById(R.id.button_info)
+
+        buttonInfo.setOnClickListener {
+            startActivity(Intent(this, FinalActivity::class.java))
+        }
     }
 
     private fun setData(obj:PlanetInfo, planetImg:Int) {

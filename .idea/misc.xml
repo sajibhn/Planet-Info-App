@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/Users/Sajib Hossain/AndroidStudioProjects/PlanetInfoApp/app/src/main/res/drawable/bg_footer.xml" value="0.1" />
         <entry key="..\:/Users/Sajib Hossain/AndroidStudioProjects/PlanetInfoApp/app/src/main/res/drawable/bg_header.xml" value="0.1" />
+        <entry key="..\:/Users/Sajib Hossain/AndroidStudioProjects/PlanetInfoApp/app/src/main/res/layout/activity_final.xml" value="0.15833333333333333" />
         <entry key="..\:/Users/Sajib Hossain/AndroidStudioProjects/PlanetInfoApp/app/src/main/res/layout/activity_main.xml" value="0.15833333333333333" />
         <entry key="..\:/Users/Sajib Hossain/AndroidStudioProjects/PlanetInfoApp/app/src/main/res/layout/activity_planet_detail.xml" value="0.22" />
+        <entry key="..\:/Users/Sajib Hossain/AndroidStudioProjects/PlanetInfoApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.15833333333333333" />
         <entry key="..\:/Users/Sajib Hossain/AndroidStudioProjects/PlanetInfoApp/app/src/main/res/layout/main_sample_layout.xml" value="0.16246215943491424" />
       </map>
     </option>
