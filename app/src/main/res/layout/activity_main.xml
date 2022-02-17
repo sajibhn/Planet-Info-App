@@ -18,14 +18,15 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Planet Info"
-            android:gravity="start|bottom"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
-            android:textColor="@color/white"
-            android:textStyle="bold"
             android:fontFamily="@font/poppins_semibold"
-            android:textSize="25sp"/>
+            android:gravity="start|bottom"
+            android:text="@string/planet_info"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
 
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView

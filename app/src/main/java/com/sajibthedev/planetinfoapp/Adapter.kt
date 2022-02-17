@@ -7,8 +7,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import java.util.*
 
-class Adapter(var planet: List<PlanetInfo>) : RecyclerView.Adapter<Adapter.ViewHolder>() {
+class Adapter(private var  planet: List<PlanetInfo>) : RecyclerView.Adapter<Adapter.ViewHolder>() {
 
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -40,7 +41,7 @@ class Adapter(var planet: List<PlanetInfo>) : RecyclerView.Adapter<Adapter.ViewH
             holder.itemView.context.startActivity(intent)
         }
 
-        when(planet[position].title!!.toLowerCase()){
+        when(planet[position].title!!.lowercase(Locale.getDefault())){
 
             "mars" -> {
                 dummyImage = R.drawable.ic_mars

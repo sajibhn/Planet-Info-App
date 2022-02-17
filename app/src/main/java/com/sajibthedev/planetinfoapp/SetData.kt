@@ -3,7 +3,7 @@ package com.sajibthedev.planetinfoapp
 object SetData {
 
     fun setPlanets():List<PlanetInfo>{
-        var planetList = mutableListOf<PlanetInfo>()
+        val planetList = mutableListOf<PlanetInfo>()
 
         planetList.add(
             PlanetInfo(
