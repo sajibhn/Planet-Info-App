@@ -13,7 +13,7 @@ class Adapter(var planet: List<PlanetInfo>) : RecyclerView.Adapter<Adapter.ViewH
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var title: TextView = itemView.findViewById(R.id.title)
         var planet:ImageView = itemView.findViewById(R.id.planet_img)
-        var galaxy: TextView = itemView.findViewById(R.id.title)
+        var galaxy: TextView = itemView.findViewById(R.id.galaxy)
         var distance: TextView = itemView.findViewById(R.id.distance)
         var gravity: TextView = itemView.findViewById(R.id.gravity)
 
