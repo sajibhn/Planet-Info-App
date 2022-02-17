@@ -8,7 +8,7 @@ I have created this app by watching a you video
 
 ## Screenshots
 
-![App Screenshot](https://j.gifs.com/r27Rk2.gif)
+![App Screenshot](https://j.gifs.com/EqQ9Rg.gif)
 
 ## Tech Stack
 
